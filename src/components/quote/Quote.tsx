@@ -9,13 +9,13 @@ import styles from './quote.module.scss'
 
 export const Quote = () => {
   const dispatch = useAppDispatch();
-  // const initialRender = useRef(true);
+  const initialRender = useRef(true);
 
   useEffect(() => {
-    // if (initialRender.current) {
-    //   initialRender.current = false;
-    //   return;
-    // }
+    if (initialRender.current) {
+      initialRender.current = false;
+      return;
+    }
     dispatch(loadQuote());
   }, [dispatch]);
 
