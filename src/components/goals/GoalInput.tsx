@@ -1,9 +1,7 @@
 import React, { useRef, useState } from "react";
 import uniqid from "uniqid";
 import { Box, Button, Input } from "@mui/material";
-
 import { addGoal } from "./goalsSlice";
-
 import { useAppDispatch } from "../../hooks/redux";
 import styles from "./goals.module.scss";
 
@@ -21,14 +19,12 @@ export function GoalInput() {
       isDone: false,
     };
 
-    if (error === '') {
+    if (error === "") {
       dispatch(addGoal(obj));
     } else {
       return;
     }
-
     setGoal("");
-    
   };
   const handleSetGoal = () => {
     console.log("eee", textValue.current?.value);
@@ -37,17 +33,17 @@ export function GoalInput() {
         setGoal(textValue.current.value);
         setError("");
       } else {
-        setError('Слишком длинная цель...');
+        setError("Слишком длинная цель...");
       }
     }
   };
   return (
-    <Box className={styles.goalsInputContainer}>
+    <Box className={styles.inputContainer}>
       <form
         onSubmit={(e) => {
           handleSubmitGoal(e);
         }}
-        style={{display: 'flex'}}
+        style={{ display: "flex" }}
       >
         <Input
           fullWidth
@@ -55,11 +51,29 @@ export function GoalInput() {
           value={goal}
           inputRef={textValue}
           onChange={handleSetGoal}
+          style={{
+            backgroundColor: "rgba(0,0,0,0.5)",
+            color: "white",
+            fontSize: "14px",
+            paddingLeft: "1rem",
+          }}
         />
-        
-        <Button type="submit" variant="contained">Добавить</Button>
+
+        <Button
+          variant="contained"
+          style={{
+            backgroundColor: "black",
+            color: "white",
+            fontSize: "14px",
+          }}
+          type="submit"
+        >
+          Добавить
+        </Button>
       </form>
-      {error && goal.length >= 11 && <div className={styles.error}>{error}</div>}
+      {error && goal.length >= 11 && (
+        <div className={styles.error}>{error}</div>
+      )}
     </Box>
   );
 }

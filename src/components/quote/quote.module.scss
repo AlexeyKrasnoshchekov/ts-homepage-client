@@ -1,16 +1,15 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
-.quoteContainer {
+.container {
     margin-bottom: 1rem;
     display: flex;
 }
-.quoteTitle {
-    color: $secondary;
-    text-shadow: 0.1rem 0.1rem 0 $primary;
+.title {
+    @include title;
 }
 
-.quoteHeader {
+.header {
+    @include header;
     margin-right: 1rem;
-    color: $primary;
-    text-shadow: 0.1rem 0.1rem 0 $secondary;
 }

@@ -62,5 +62,6 @@ export interface GoalType {
 export interface Weather {
     icon: string,
     degree: number,
-    descr: string
+    descr: string,
+    city: string
 }

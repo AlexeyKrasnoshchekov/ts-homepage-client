@@ -1,0 +1,21 @@
+@mixin arrow($bg-color) {
+    position: fixed;  
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: $bg-color;
+}
+
+@mixin header() {
+    font-size: $lg;
+    color: $primary;
+    text-shadow: 0.1rem 0.1rem 0 $secondary;
+}
+@mixin title() {
+    color: $secondary;
+    text-shadow: 0.1rem 0.1rem 0 $primary;
+    font-size: $lg;
+}

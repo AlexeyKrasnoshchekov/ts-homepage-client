@@ -6,10 +6,10 @@ import { useAppDispatch } from "../../hooks/redux";
 import styles from "./image.module.scss";
 
 export default function ImageArrows() {
-    const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch();
 
   return (
-    <div className={styles.imageArrowLeft}>
+    <div className={styles.arrowLeft}>
       <IconButton onClick={() => dispatch(prevImage())} aria-label="prev image">
         <ArrowBackIosIcon />
       </IconButton>

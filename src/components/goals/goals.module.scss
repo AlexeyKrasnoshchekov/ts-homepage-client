@@ -1,21 +1,17 @@
 @import '../../styles/variables';
 
-.goalsInputContainer {
-    outline: 2px solid red;
+.inputContainer {
     width: 50%;
     margin-bottom: 1rem;
 }
 
-.container {
+.outerContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
-.goalContainer {
-    // width: 100%;
+.innerContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -36,7 +32,7 @@
 .done {
     opacity: 0.5;
 }
-.goalHeader {
+.header {
     color: $primary;
     text-shadow: 0.1rem 0.1rem 0 $secondary;
     margin-bottom: 1rem;

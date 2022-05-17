@@ -9,7 +9,7 @@ export default function ImageArrowRight() {
   const dispatch = useAppDispatch();
 
   return (
-    <div className={styles.imageArrowRight}>
+    <div className={styles.arrowRight}>
       <IconButton onClick={() => dispatch(nextImage())} aria-label="next image">
         <ArrowForwardIosIcon />
       </IconButton>

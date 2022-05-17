@@ -6,11 +6,10 @@ import {
   // createUrl
 } from "./weatherSlice";
 
-import styles from './weather.module.scss'
+import styles from "./weather.module.scss";
 
 export const Weather = () => {
   const dispatch = useAppDispatch();
-  // const [geoUrl, setGeoUrl] = useState("");
   const [lat, setLat] = useState<number>();
   const [long, setLong] = useState<number>();
 
@@ -38,15 +37,19 @@ export const Weather = () => {
   }, [dispatch, lat, long]);
 
   return (
-    <div className={styles.weatherContainer}>
-      <h3 className={styles.weatherHeader}>Погода сейчас:</h3>
-      <div className={styles.weatherInnerContainer}>
-        <i className={`wi wi-icon ${styles.weatherIcon} wi-${weather.icon}`}></i>
-        <h3 className={styles.weatherDegree}>{`${weather.degree} C`}</h3>
+    <div className={styles.outerContainer}>
+      <div className={styles.innerContainer}>
+        <h3 className={styles.header}>Город:</h3>
+        <h3 className={styles.descr}>{weather.city}</h3>
       </div>
-      <h3 className={styles.weatherDescr}>{weather.descr}</h3>
+      <div className={styles.innerContainer}>
+        <h3 className={styles.header}>Погода сейчас:</h3>
+        <div className={styles.innerContainer}>
+          <i className={`wi wi-icon ${styles.icon} wi-${weather.icon}`}></i>
+          <h3 className={styles.degree}>{`${weather.degree} C`}</h3>
+        </div>
+        <h3 className={styles.descr}>{weather.descr}</h3>
+      </div>
     </div>
   );
 };
-
-//   export default Weather;

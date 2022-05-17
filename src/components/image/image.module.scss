@@ -1,6 +1,7 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
-.slideshow {
+  .slideshow {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -10,10 +11,8 @@
   
   .slideshowSlider {
     white-space: nowrap;
-    // height: calc(100% - 50px);
     height: 100%;
     transition: ease 500ms;
-  
   }
   
   .slide {
@@ -23,29 +22,13 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    // border-radius: 40px;
   }
   
-  /* Buttons */
-  .slideshowArrows {
-    position: fixed;
-    top: calc(50% - 25px);
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    width: 95%;
-    text-align: center;
-    outline: 2px solid red;
-  }
   .slideshowDots {
-    // position: fixed;
-    // top: calc(100 - 50px);
-    // left: calc(50% - 75px);
     height: 50px;
     margin-top: auto;
     min-width: 150px;
     text-align: center;
-    outline: 2px solid red;
   }
   .slideshowDot {
     display: inline-block;
@@ -54,34 +37,20 @@
     border-radius: 50%;
     cursor: pointer;
     margin: 15px 7px 0px;
-    background-color: #c4c4c4;
+    background-color: $secondary;
   
     &.active {
-      background-color: #6a0dad;
+      background-color: $primary;
     }
   }
 
-  .imageArrowRight {
-      position: fixed;
+  .arrowRight {
+      @include arrow($secondary);
       top: calc(50% - 20px);
       left: calc(100% - 5rem);
-      width: 2.5rem;
-      height: 2.5rem;
-      background-color: $secondary;
-      border-radius: 50%;
-      display: flex;
-      justify-content:center;
-      align-items: center;
   }
-  .imageArrowLeft {
-      position: fixed;
+  .arrowLeft {
+      @include arrow($secondary);
       top: calc(50% - 20px);
       left: 3rem;
-      width: 2.5rem;
-      height: 2.5rem;
-      background-color: $secondary;
-      border-radius: 50%;
-      display: flex;
-      justify-content:center;
-      align-items: center;
   }

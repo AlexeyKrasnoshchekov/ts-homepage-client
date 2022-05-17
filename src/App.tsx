@@ -13,7 +13,7 @@ function App() {
     <>
       <ImageContainer />
 
-      <div className="container">
+      <div className="app">
         <Weather />
         <Quote />
         <GoalInput />

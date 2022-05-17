@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "homepage": "https://alexeykrasnoshchekov.github.io/homepage",
+  "name": "homepage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +61,7 @@
     "@types/redux": "^3.6.0",
     "@types/redux-thunk": "^2.1.0",
     "@types/uniqid": "^5.3.2",
+    "gh-pages": "^2.0.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "sass": "^1.51.0"
