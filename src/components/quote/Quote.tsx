@@ -17,7 +17,7 @@ export const Quote = () => {
     //   return;
     // }
     dispatch(loadQuote());
-  }, []);
+  }, [dispatch]);
 
   const quote = useAppSelector(selectQuote);
 

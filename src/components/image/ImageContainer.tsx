@@ -34,7 +34,7 @@ function ImageContainer(props: any) {
     //   delay
     // );
     // getLocalGoals();
-  }, []);
+  }, [dispatch]);
   return (
     <div className={styles.slideshow}>
       <div
