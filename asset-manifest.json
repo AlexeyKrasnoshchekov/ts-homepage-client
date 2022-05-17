@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e5bcf34.css",
-    "main.js": "/static/js/main.7bb819c8.js",
-    "static/js/787.343dc08c.chunk.js": "/static/js/787.343dc08c.chunk.js",
-    "static/media/weathericons-regular-webfont.svg": "/static/media/weathericons-regular-webfont.86a76ca5e882e8285706.svg",
-    "static/media/weathericons-regular-webfont.eot": "/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
-    "static/media/weathericons-regular-webfont.ttf": "/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
-    "static/media/weathericons-regular-webfont.woff": "/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
-    "static/media/weathericons-regular-webfont.woff2": "/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
-    "index.html": "/index.html",
-    "main.7e5bcf34.css.map": "/static/css/main.7e5bcf34.css.map",
-    "main.7bb819c8.js.map": "/static/js/main.7bb819c8.js.map",
-    "787.343dc08c.chunk.js.map": "/static/js/787.343dc08c.chunk.js.map"
+    "main.css": "/ts-homepage-client/static/css/main.0c2fdecf.css",
+    "main.js": "/ts-homepage-client/static/js/main.460d6b43.js",
+    "static/js/787.343dc08c.chunk.js": "/ts-homepage-client/static/js/787.343dc08c.chunk.js",
+    "static/media/weathericons-regular-webfont.svg": "/ts-homepage-client/static/media/weathericons-regular-webfont.86a76ca5e882e8285706.svg",
+    "static/media/weathericons-regular-webfont.eot": "/ts-homepage-client/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
+    "static/media/weathericons-regular-webfont.ttf": "/ts-homepage-client/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
+    "static/media/weathericons-regular-webfont.woff": "/ts-homepage-client/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
+    "static/media/weathericons-regular-webfont.woff2": "/ts-homepage-client/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
+    "index.html": "/ts-homepage-client/index.html",
+    "main.0c2fdecf.css.map": "/ts-homepage-client/static/css/main.0c2fdecf.css.map",
+    "main.460d6b43.js.map": "/ts-homepage-client/static/js/main.460d6b43.js.map",
+    "787.343dc08c.chunk.js.map": "/ts-homepage-client/static/js/787.343dc08c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e5bcf34.css",
-    "static/js/main.7bb819c8.js"
+    "static/css/main.0c2fdecf.css",
+    "static/js/main.460d6b43.js"
   ]
 }
