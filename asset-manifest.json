@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.db85f946.css",
-    "main.js": "/homepage/static/js/main.3993cdcb.js",
-    "static/js/787.5c39024c.chunk.js": "/homepage/static/js/787.5c39024c.chunk.js",
-    "static/media/weathericons-regular-webfont.svg": "/homepage/static/media/weathericons-regular-webfont.86a76ca5e882e8285706.svg",
-    "static/media/weathericons-regular-webfont.eot": "/homepage/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
-    "static/media/weathericons-regular-webfont.ttf": "/homepage/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
-    "static/media/weathericons-regular-webfont.woff": "/homepage/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
-    "static/media/weathericons-regular-webfont.woff2": "/homepage/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
-    "index.html": "/homepage/index.html",
-    "main.db85f946.css.map": "/homepage/static/css/main.db85f946.css.map",
-    "main.3993cdcb.js.map": "/homepage/static/js/main.3993cdcb.js.map",
-    "787.5c39024c.chunk.js.map": "/homepage/static/js/787.5c39024c.chunk.js.map"
+    "main.css": "/ts-homepage-client/static/css/main.0c2fdecf.css",
+    "main.js": "/ts-homepage-client/static/js/main.460d6b43.js",
+    "static/js/787.343dc08c.chunk.js": "/ts-homepage-client/static/js/787.343dc08c.chunk.js",
+    "static/media/weathericons-regular-webfont.svg": "/ts-homepage-client/static/media/weathericons-regular-webfont.86a76ca5e882e8285706.svg",
+    "static/media/weathericons-regular-webfont.eot": "/ts-homepage-client/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
+    "static/media/weathericons-regular-webfont.ttf": "/ts-homepage-client/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
+    "static/media/weathericons-regular-webfont.woff": "/ts-homepage-client/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
+    "static/media/weathericons-regular-webfont.woff2": "/ts-homepage-client/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
+    "index.html": "/ts-homepage-client/index.html",
+    "main.0c2fdecf.css.map": "/ts-homepage-client/static/css/main.0c2fdecf.css.map",
+    "main.460d6b43.js.map": "/ts-homepage-client/static/js/main.460d6b43.js.map",
+    "787.343dc08c.chunk.js.map": "/ts-homepage-client/static/js/787.343dc08c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db85f946.css",
-    "static/js/main.3993cdcb.js"
+    "static/css/main.0c2fdecf.css",
+    "static/js/main.460d6b43.js"
   ]
 }
