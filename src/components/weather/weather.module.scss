@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+
+.weather-container, .weather-header {
+    padding: 0;
+    margin: 0;
+}
+
+.weatherContainer {
+    text-align: center;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+.weatherInnerContainer {
+
+    display: flex;
+
+  }
+
+  .weatherIcon {
+      font-size: 24px;
+      display: flex !important;
+      align-items: center;
+      margin-right: 1rem;
+      color: $secondary;
+    text-shadow: 0.1rem 0.1rem 0 $primary;
+  }
+
+  .weatherHeader {
+      margin-right: 1rem;
+      color: $primary;
+      text-shadow: 0.1rem 0.1rem 0 $secondary;
+  }
+  .weatherDegree {
+      margin-right: 1rem;
+      color: $secondary;
+    text-shadow: 0.1rem 0.1rem 0 $primary;
+  }
+  .weatherDescr {
+      color: $secondary;
+    text-shadow: 0.1rem 0.1rem 0 $primary;
+  }

@@ -30,7 +30,6 @@ export interface IUrls {
     regular: string, 
     small: string, 
     thumb: string, 
-
 }
 
 export interface ImageState {
@@ -39,5 +38,29 @@ export interface ImageState {
     bgImageIndex: number,
     isLoadingImage: boolean,
     failedToLoadImage: boolean
+}
+export interface QuoteState {
+    quote: string,
+    isLoadingQuote: boolean,
+    failedToLoadQuote: boolean
+}
+export interface GoalState {
+    goals: GoalType[]
+}
+export interface WeatherState {
+    weather: Weather,
+    url: string,
+    isLoadingWeather: boolean,
+    failedToLoadWeather: boolean
+}
 
+export interface GoalType {
+    id: string,
+    name: string,
+    isDone: boolean
+}
+export interface Weather {
+    icon: string,
+    degree: number,
+    descr: string
 }

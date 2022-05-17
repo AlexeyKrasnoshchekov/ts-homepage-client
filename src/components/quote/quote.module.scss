@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.quoteContainer {
+    margin-bottom: 1rem;
+    display: flex;
+}
+.quoteTitle {
+    color: $secondary;
+    text-shadow: 0.1rem 0.1rem 0 $primary;
+}
+
+.quoteHeader {
+    margin-right: 1rem;
+    color: $primary;
+    text-shadow: 0.1rem 0.1rem 0 $secondary;
+}

@@ -1,15 +1,15 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
 // import counterReducer from '../features/counter/counterSlice';
-// import weatherReducer from '../features/weather/weatherSlice';
-// import quoteReducer from '../features/quote/quoteSlice';
+import weatherReducer from '../components/weather/weatherSlice';
+import quoteReducer from '../components/quote/quoteSlice';
 import imageReducer from '../components/image/imageSlice';
-// import goalsReducer from '../features/goals/goalsSlice';
+import goalsReducer from '../components/goals/goalsSlice';
 
 const rootReducer = combineReducers({
-  // weather: weatherReducer,
-  // quote: quoteReducer,
+  weather: weatherReducer,
+  quote: quoteReducer,
   image: imageReducer,
-  // goals: goalsReducer
+  goals: goalsReducer
 })
 
 // export const store = () => {
