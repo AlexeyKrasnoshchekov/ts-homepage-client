@@ -6,7 +6,7 @@ import styles from "./image.module.scss";
 
 function ImageContainer(props: any) {
   const dispatch = useAppDispatch();
-  const initialRender = useRef(true);
+  // const initialRender = useRef(true);
 
   const images: Image[] = useAppSelector(selectImages);
   const imageIndex: number = useAppSelector(selectImageIndex);
@@ -23,10 +23,10 @@ function ImageContainer(props: any) {
   // }, []);
 
   useEffect(() => {
-    if (initialRender.current) {
-      initialRender.current = false;
-      return;
-    }
+    // if (initialRender.current) {
+    //   initialRender.current = false;
+    //   return;
+    // }
     dispatch(loadImage());
     // setTimeout(
     //   () =>
@@ -34,7 +34,7 @@ function ImageContainer(props: any) {
     //   delay
     // );
     // getLocalGoals();
-  }, [dispatch]);
+  }, []);
   return (
     <div className={styles.slideshow}>
       <div
