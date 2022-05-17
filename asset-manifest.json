@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ts-homepage-client/static/css/main.0c2fdecf.css",
-    "main.js": "/ts-homepage-client/static/js/main.6690f965.js",
+    "main.js": "/ts-homepage-client/static/js/main.460d6b43.js",
     "static/js/787.343dc08c.chunk.js": "/ts-homepage-client/static/js/787.343dc08c.chunk.js",
     "static/media/weathericons-regular-webfont.svg": "/ts-homepage-client/static/media/weathericons-regular-webfont.86a76ca5e882e8285706.svg",
     "static/media/weathericons-regular-webfont.eot": "/ts-homepage-client/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
@@ -10,11 +10,11 @@
     "static/media/weathericons-regular-webfont.woff2": "/ts-homepage-client/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
     "index.html": "/ts-homepage-client/index.html",
     "main.0c2fdecf.css.map": "/ts-homepage-client/static/css/main.0c2fdecf.css.map",
-    "main.6690f965.js.map": "/ts-homepage-client/static/js/main.6690f965.js.map",
+    "main.460d6b43.js.map": "/ts-homepage-client/static/js/main.460d6b43.js.map",
     "787.343dc08c.chunk.js.map": "/ts-homepage-client/static/js/787.343dc08c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2fdecf.css",
-    "static/js/main.6690f965.js"
+    "static/js/main.460d6b43.js"
   ]
 }
