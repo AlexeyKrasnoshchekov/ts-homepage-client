@@ -1,6 +1,7 @@
 import "./App.scss";
 import { Weather } from "./components/weather/Weather";
 import { Quote } from "./components/quote/Quote";
+import { QuoteRTK } from "./components/quote/QuoteRTK"; 
 import { GoalInput } from "./components/goals/GoalInput";
 import { GoalsList } from "./components/goals/GoalList";
 import ImageContainer from "./components/image/ImageContainer";
@@ -16,6 +17,7 @@ function App() {
       <div className="app">
         <Weather />
         <Quote />
+        <QuoteRTK/>
         <GoalInput />
         <GoalsList />
         <ImageDots />

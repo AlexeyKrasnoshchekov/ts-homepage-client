@@ -1,15 +1,18 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import { configureStore, combineReducers, getDefaultMiddleware } from '@reduxjs/toolkit';
 // import counterReducer from '../features/counter/counterSlice';
 import weatherReducer from '../components/weather/weatherSlice';
 import quoteReducer from '../components/quote/quoteSlice';
 import imageReducer from '../components/image/imageSlice';
 import goalsReducer from '../components/goals/goalsSlice';
 
+import { quotesApi } from '../components/quote/quotesRTKquery';
+
 const rootReducer = combineReducers({
   weather: weatherReducer,
   quote: quoteReducer,
   image: imageReducer,
-  goals: goalsReducer
+  goals: goalsReducer,
+  [quotesApi.reducerPath]: quotesApi.reducer
 })
 
 // export const store = () => {
@@ -19,7 +22,9 @@ const rootReducer = combineReducers({
 // }
 
 export const store = configureStore({
-  reducer: rootReducer
+  reducer: rootReducer,
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(quotesApi.middleware)
+
 });
 
 // export type TStore = ReturnType<typeof store.getState>;
