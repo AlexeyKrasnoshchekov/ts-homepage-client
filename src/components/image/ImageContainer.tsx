@@ -10,6 +10,8 @@ function ImageContainer(props: any) {
 
   const images: Image[] = useAppSelector(selectImages);
   const imageIndex: number = useAppSelector(selectImageIndex);
+
+  console.log('images', images)
   // const delay = 2500;
 
   // useEffect(() => {

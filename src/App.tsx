@@ -16,8 +16,8 @@ function App() {
 
       <div className="app">
         <Weather />
-        <Quote />
-        <QuoteRTK/>
+        {/* <Quote />
+        <QuoteRTK/> */}
         <GoalInput />
         <GoalsList />
         <ImageDots />

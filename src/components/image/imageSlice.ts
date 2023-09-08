@@ -15,7 +15,7 @@ export const loadImage = createAsyncThunk(
     'image/loadImage',
     async (_, thunkAPI) => {
         try {
-            let data = await fetch('https://nice-homepage.herokuapp.com/images', { mode: "cors" });
+            let data = await fetch('https://vercel-homepage-server.vercel.app/images', { mode: "cors" });
             const json = await data.json();
             return json;
         } catch (error) {

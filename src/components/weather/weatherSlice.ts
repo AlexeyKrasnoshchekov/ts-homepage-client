@@ -26,7 +26,7 @@ export const loadWeather = createAsyncThunk(
     async (args: Coords, thunkAPI) => {
         const { lat, long } = args;
         try {
-            let data = await fetch(`https://nice-homepage.herokuapp.com/weather/?lat=${lat}&lon=${long}`, { mode: "cors" });
+            let data = await fetch(`https://vercel-homepage-server.vercel.app/weather/?lat=${lat}&lon=${long}`, { mode: "cors" });
             const json = await data.json();
             return json;
         } catch (error) {
